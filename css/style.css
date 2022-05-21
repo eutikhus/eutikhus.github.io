@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+
+@font-face {
+    font-family: "alameda_o";
+    src: url("font/alameda.otf");
+    font-weight: 500;
+}
+@font-face {
+    font-family: "alameda_t";
+    src: url("font/alameda.ttf");
+    font-weight: 500;
+}
+p{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+}
+p.a{
+    color: blue;
+    font-family: 'alameda_t';
+    font-size: xx-large;
+}
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: gray;
+    border: 1px solid black;
+  }
+th, td, tr{
+    border: 1px solid black;
+  }
+img{
+    width: 200px;
+}
+h1{
+    font-family: 'Macondo', cursive;
+}
+h2, h3, h4, h5 {
+    font-family: 'alameda_t';
+}
+#kep1id {
+    width: 400px;
+}
